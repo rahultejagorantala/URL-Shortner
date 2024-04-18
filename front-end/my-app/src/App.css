@@ -1,0 +1,45 @@
+
+.App {
+  text-align: center;
+}
+
+/* This block styles the app logo */
+.App-logo {
+  height: 40vmin; 
+  pointer-events: none; /
+}
+
+/* This media query checks if the user prefers reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+ 
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; 
+  }
+}
+
+/* This block styles the header of the app */
+.App-header {
+  background-color: #282c34; 
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: calc(10px + 2vmin); 
+  color: white; 
+}
+
+/* This block styles the links in the app */
+.App-link {
+  color: #61dafb; 
+}
+
+/* This block defines the keyframes for the spinning animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(360deg); 
+  }
+}
